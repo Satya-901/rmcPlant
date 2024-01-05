@@ -1,0 +1,19 @@
+/**
+ * Admin Panel Documentation
+ *
+ * This admin panel provides a user-friendly interface to manage website content. It allows administrators to control various aspects of the website, including adding, editing, and deleting content such as text, images, and videos. The admin panel also enables the management of user accounts, access permissions, and other administrative tasks.
+ *
+ * How to Use:
+ * 1. Log in to the admin panel using the provided credentials.
+ * 2. Navigate to the respective sections to manage content, users, and settings.
+ * 3. To add new content, click on the "Add" button and fill in the required details.
+ * 4. To edit existing content, select the item and make the necessary changes.
+ * 5. To delete content, select the item and choose the delete option.
+ *
+ * Accessing the Admin Panel:
+ * URL: [Admin_Panel_URL]
+ * Username: [Admin_Username]
+ * Password: [Admin_Password]
+ *
+ * Note: Please keep the admin credentials secure and do not share them with unauthorized individuals.
+ */
