@@ -36,7 +36,13 @@
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
     <a href="./" class="navbar-brand ps-5 me-0">
         <h1 class="text-white m-0">
-            <?= $_SESSION['website_info']['website_name'] ?>
+            <?php
+            if ($_SESSION['website_info']['logo'] == "") {
+                echo $_SESSION['website_info']['website_name'];
+            } else {
+                echo '<img class="img-fluid" src="' . $_SESSION['website_info']['logo'] . '" alt="logo">';
+            }
+            ?>
         </h1>
     </a>
     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
