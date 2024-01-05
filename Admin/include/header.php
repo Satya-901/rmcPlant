@@ -27,9 +27,6 @@
                         <h6>
                             <?= $_SESSION['loggedin_email'] ?>
                         </h6>
-                        <span>
-                            Satya
-                        </span>
                     </li>
                     <li>
                         <hr class="dropdown-divider">
