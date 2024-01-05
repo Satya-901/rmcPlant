@@ -49,8 +49,13 @@
 
                             <div class="d-flex justify-content-center py-4">
                                 <a href="" class="logo d-flex align-items-center w-auto">
-                                    <img src="" alt="logo">
-                                    <span class="d-none d-lg-block">RMC</span>
+                                    <?php
+                                    if ($_SESSION['website_info']['logo'] == "") {
+                                        echo '<span class="d-none d-lg-block">' . $_SESSION['website_info']['website_name'] . '</span>';
+                                    } else {
+                                        echo '<img src="' . $_SESSION['website_info']['logo'] . '" alt="logo">';
+                                    }
+                                    ?>
                                 </a>
                             </div><!-- End Logo -->
 
