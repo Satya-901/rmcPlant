@@ -34,7 +34,7 @@ if (isset($_POST['updateproduct'])) {
         //image upload to my sql server using php.
         $filename = $_FILES["image"]["name"];
         $tempname = $_FILES["image"]["tmp_name"];
-        $image = "../assets/images/" . $filename;
+        $image = "../img/" . $filename;
         move_uploaded_file($tempname, $image);
     }
 
@@ -152,7 +152,7 @@ if (isset($_POST['updateproduct'])) {
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">New Project</h5>
+                <h5 class="modal-title">upload Video</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">

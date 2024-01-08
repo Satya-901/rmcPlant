@@ -40,7 +40,7 @@
             if ($_SESSION['website_info']['logo'] == "") {
                 echo $_SESSION['website_info']['website_name'];
             } else {
-                echo '<img class="img-fluid" src="' . $_SESSION['website_info']['logo'] . '" alt="logo">';
+                echo '<img class="img-fluid" src="img/' . $_SESSION['website_info']['logo'] . '" alt="logo">';
             }
             ?>
         </h1>

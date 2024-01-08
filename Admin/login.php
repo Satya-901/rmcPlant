@@ -53,7 +53,7 @@
                                     if ($_SESSION['website_info']['logo'] == "") {
                                         echo '<span class="d-none d-lg-block">' . $_SESSION['website_info']['website_name'] . '</span>';
                                     } else {
-                                        echo '<img src="' . $_SESSION['website_info']['logo'] . '" alt="logo">';
+                                        echo '<img src="../img/' . $_SESSION['website_info']['logo'] . '" alt="logo">';
                                     }
                                     ?>
                                 </a>
