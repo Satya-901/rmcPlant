@@ -70,7 +70,7 @@
 
 
 <!-- Back to Top -->
-<a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+<a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top">Satya<i class="bi bi-arrow-up"></i></a>
 <!-- Whatsapp button -->
 <a href="https://api.whatsapp.com/send?phone=<?= $_SESSION['website_info']['contact1'] ?>"
     class="btn btn-lg btn-success btn-lg-square rounded-circle whasapp-btn" target="_blank">
